@@ -18,12 +18,12 @@ import os
 
 current_dir = os.getcwd()
 
-cascade_path = os.path.join(current_dir, 'Second_Project', 'FILE', 'haarcascade_frontalface_alt.xml')
-agePro_path = os.path.join(current_dir, 'Second_Project', 'FILE', 'deploy_age.prototxt')
-ageCaf_path = os.path.join(current_dir, 'Second_Project', 'FILE', 'age_net.caffemodel')
-genPro_path = os.path.join(current_dir, 'Second_Project', 'FILE', 'deploy_gender.prototxt')
-genCaf_path = os.path.join(current_dir, 'Second_Project', 'FILE', 'gender_net.caffemodel')
-Image_path = os.path.join(current_dir, 'Second_Project', 'Image')
+cascade_path = os.path.join(current_dir, 'FILE', 'haarcascade_frontalface_alt.xml')
+agePro_path = os.path.join(current_dir, 'FILE', 'deploy_age.prototxt')
+ageCaf_path = os.path.join(current_dir, 'FILE', 'age_net.caffemodel')
+genPro_path = os.path.join(current_dir, 'FILE', 'deploy_gender.prototxt')
+genCaf_path = os.path.join(current_dir, 'FILE', 'gender_net.caffemodel')
+Image_path = os.path.join(current_dir, 'Image')
 # 파일명 존재 여부
 def get_image_filename():
     # 현재 디렉토리의 파일 목록 가져오기
